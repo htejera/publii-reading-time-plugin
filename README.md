@@ -6,6 +6,10 @@
 
 The Reading Time plugin automatically calculates and displays the estimated reading time for each post in Publii websites. This plugin enhances user engagement by providing readers with an estimate of the time required to read a post, fostering a better user experience.
 
+![Example](https://github.com/htejera/publii-reading-time-plugin/blob/main/example.jpg?raw=true)
+
+[Open demo](https://publii-2pdf.surge.sh/evariste-galois-the-revolutionary-mathematician-whose-legacy-transforms-algebra.html)
+
 ## Features
 
 - **Automatic Calculation**: Dynamically calculates the reading time based on the word count of each post.
