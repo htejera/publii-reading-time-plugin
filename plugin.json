@@ -1,0 +1,24 @@
+{
+    "name": "Reading Time",
+    "description": "This plugin automatically calculates and displays the estimated reading time for each post.",
+    "license": "MIT",
+    "author": "htejera",
+    "version": "1.0.0",
+    "scope": "site",
+    "minimumPubliiVersion": "0.40.0",
+    "usePluginSettingsView": false,
+    "messageInOptions": {
+        "type": "info",
+        "text": "Customize the plugin"
+    },
+    "config": [
+        {
+            "name": "text",
+            "label": "Text",
+            "note": "Text to display next to the reading time",
+            "group": "General Settings",
+            "value": "Estimated reading time:",
+            "type": "text"            
+        }
+    ]
+}
