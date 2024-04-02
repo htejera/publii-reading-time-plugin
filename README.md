@@ -23,9 +23,11 @@ The Reading Time plugin automatically calculates and displays the estimated read
 
 The plugin offers the following configuration options:
 
-- **Text**: Customize the text displayed next to the reading time. For example, "Estimated reading time:".
+- **Text**: Customize the text displayed next to the reading time. 
 
-To configure these settings, navigate to the plugin settings in the Publii interface and adjust the values as desired.
+Within the plugin's configuration, you can set a custom text that will be displayed alongside the estimated reading time. Use %s within this text to indicate where the calculated time (minutes and seconds) should be inserted. The plugin will automatically replace %s with the actual reading time.
+
+For example, if you set the configuration text to **"Estimated reading time: %s minute(s) to read"**, the plugin will calculate the reading time and insert it in place of **%s**. This allows for full customization and support for different languages.
 
 ![Configuration](https://github.com/htejera/publii-reading-time-plugin/blob/main/configuration.jpg?raw=true)
 
