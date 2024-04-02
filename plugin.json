@@ -9,16 +9,24 @@
     "usePluginSettingsView": false,
     "messageInOptions": {
         "type": "info",
-        "text": "Customize the plugin"
+        "text": "Customize the plugin."
     },
     "config": [
         {
             "name": "text",
             "label": "Text",
-            "note": "Text to display next to the reading time",
+            "note": "Text to display next to the reading time. Use %s within this text to indicate where the calculated time (minutes and seconds) should be inserted. The plugin will automatically replace %s with the actual reading time.",
             "group": "General Settings",
-            "value": "Estimated reading time:",
-            "type": "text"            
+            "value": "Estimated reading time: %s minute(s) to read",
+            "type": "text"
+        },
+        {
+            "name": "parentElementSelector",
+            "label": "Parent Element Selector",
+            "note": "CSS selector of the parent element where the reading time will be placed. For example, use 'h1' to place it below the first heading.",
+            "group": "General Settings",
+            "value": "h1",
+            "type": "text"
         }
     ]
 }
