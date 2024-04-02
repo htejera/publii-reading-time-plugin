@@ -27,6 +27,8 @@ The plugin offers the following configuration options:
 
 To configure these settings, navigate to the plugin settings in the Publii interface and adjust the values as desired.
 
+![Configuration](https://github.com/htejera/publii-reading-time-plugin/blob/main/configuration.jpg?raw=true)
+
 ## Usage
 
 Once installed and configured, the Reading Time plugin automatically calculates the estimated reading time for each post and displays it according to your settings. No further action is required from the user.
