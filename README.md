@@ -14,7 +14,7 @@ The Reading Time plugin automatically calculates and displays the estimated read
 
 ## Installation
 
-1. Download the plugin from the [Release page](#).
+1. Download the plugin from the [Release page](https://github.com/htejera/publii-reading-time-plugin/releases).
 2. In Publii, go to "Plugins" > "Add new" and select the downloaded ZIP file
 3. Go to the "Plugins" section in the Publii app and enable the "Reading Time" plugin.
 4. Once installed, the plugin will automatically start calculating and displaying the reading time for your posts.
